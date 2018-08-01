@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/dateUtil.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/index.js"></script> 
+</head>
+<body>
+    <!-- header-top start -->
+    <div id="header-top-wrap">
+        <div id="header-top">
+            <div class="htop-left">
+                <div class="logout">
+                    <span>欢迎来酒仙网 !</span>
+                    <a href="html/login.html" class="change logins">请登录</a>
+                    <a href="html/register.html" class="change registers">免费注册</a>
+                </div>
+                <div class="login">
+                    <span class="username"></span>
+                    <a href="javascript:;" class="leave">退出</a>
+                </div>
+            </div>
+            <div class="htop-right">
+                <ul>
+                    <li class="fir">
+                        <a href="javascript:;" class="change">我的酒仙</a>
+                        <span class="pub-bg"></span>
+                        <ul>
+                            <li>
+                                <a href="javascript:;" class="change">我的订单</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="change">物流跟踪</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="change">我的优惠劵</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">CEO邮箱</a>
+                    </li>
+                    <li>
+                        <span class="pub-bg"></span>
+                        <a href="html/cart.html" class="change">购物车<span class="mainCount">23</span>件</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">CLUB会员</a>
+                    </li>
+                    <li>
+                        <s></s>
+                        <a href="javascript:;" class="change">招商入驻</a>
+                    </li>
+                    <li>
+                        <s></s>
+                        <a href="javascript:;" class="change"><span class="pub-bg"></span>手机逛酒仙</a>
+                        <div><img src="img/jxPho-code.jpg" alt=""></div>
+                    </li>
+                    <li class="subMenu">
+                        <s></s>
+                        <span class="pub-bg"></span>
+                        <a href="" class="change">网站导航</a>
+                        <span class="pub-bg"></span>
+                        <div>
+                            <div>
+                                <p>购物</p>
+                                <p>
+                                    <a href="" class="change">白酒</a>
+                                    <a href="" class="change">葡萄酒</a>
+                                    <a href="" class="change">洋酒</a>
+                                </p>
+                                <p>
+                                    <a href="" class="change">啤酒</a>
+                                    <a href="" class="change">保健酒</a>
+                                    <a href="" class="change">黄酒</a>
+                                </p>
+                            </div>
+                            <div>
+                                <p>活动</p>
+                                <p>
+                                    <a href="" class="change">清仓</a>
+                                    <a href="" class="change">进口馆</a>
+                                    <a href="" class="change">整箱套装</a>
+                                </p>
+                                <p>
+                                    <a href="" class="change">老酒特卖</a>
+                                    <a href="" class="change">新品发现</a>
+                                    <a href="" class="change">值得买</a>
+                                </p>
+                            </div>
+                            <div>
+                                <p>其他</p>
+                                <p>
+                                    <a href="" class="change">会员中心</a>
+                                    <a href="" class="change">社区</a>
+                                    <a href="" class="change">常见问题</a>
+                                </p>
+                                <p>
+                                    <a href="" class="change">招商入驻</a>
+                                    <a href="" class="change">VIP专区</a>
+                                    <a href="" class="change">VIP注册</a>
+                                </p>
+                            </div>
+                            <p class="request">咨询热线 ：<span>400-617-9999</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="pub-bg"></span>
+                        <a href="" class="change">客户服务</a>
+                        <span class="pub-bg"></span>
+                        <ul>
+                            <li><a href="" class="change">常见问题</a></li>
+                            <li><a href="" class="change">配送说明</a></li>
+                            <li><a href="" class="change">售后服务</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">客服热线</a>
+                        <span>400-617-9999</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- header-top end -->
+    <!-- header-img start-->
+    <div id="header-img"></div>
+    <!-- header-img end -->
+    <!-- header-main start-->
+    <div id="header-main-wrap">
+        <div id="header-main">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+                <img src="img/logo-right.gif" alt="">
+            </div>
+            <div class="search">
+                <div class="search-ipt">
+                    <input type="text" class="ipts">
+                    <input type="button" value="搜索" class="btn" id="searchBtn">
+                    <ul class="requestTxt">
+
+                    </ul>
+                </div>
+                <div class="search-txt">
+                    <a href="">茅台</a>
+                    <a href="">五粮液</a>
+                    <a href="">剑南春</a>
+                    <a href="">拉菲</a>
+                    <a href="">泸州老窖</a>
+                    <a href="">汾酒</a>
+                    <a href="">习酒</a>
+                    <a href="">黄尾袋鼠</a>
+                    <a href="">古井贡</a>
+                    <a href="">水井坊</a>
+                    <a href="">奔富</a>
+                </div>
+            </div>
+            <div class="brand"></div>
+        </div>
+    </div>
+    <!-- header-main end -->
+    <!-- nav start -->
+    <div id="nav-wrap">
+        <div id="nav">
+            <div class="category">
+                <h2>全部商品分类</h2>
+                <ul class="mainSubMenu">
+                </ul>
+            </div>
+            <ul class="main-nav">
+                <li><a href="">首页</a></li>
+                <li><a href="">领劵中心</a><span class="hint"></span></li>
+                <li><a href="">值得买</a><span class="hint"></span></li>
+                <li><a href="">葡萄酒馆</a></li>
+                <li><a href="">洋酒馆</a></li>
+                <li><a href="">酒仙甄选</a></li>
+                <li><a href="">清仓</a><span class="hint"></span></li>
+                <li><a href="">新品</a></li>
+                <li><a href="">CLUB会员</a></li>
+            </ul>
+            <div class="nav-gif">
+                <a href="">
+                    <img src="img/txtChange.gif" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- mainLunbo -->
+    <div id="mainLunbo-wrap">
+        <ul id="mainLunbo">
+            <!--<li>
+                <div class="ban-cter">
+                    <div class="mav">
+                        <img src="img/lun-small1.png" alt="">
+                        <img src="img/lun-small2.jpg" alt="">
+                        <img src="img/lun-small3.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ban-cter">
+                    <div class="mav">
+                        <img src="img/lun-small4.png" alt="">
+                        <img src="img/lun-small5.jpg" alt="">
+                        <img src="img/lun-small6.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ban-cter">
+                    <div class="mav">
+                        <img src="img/lun-small1.png" alt="">
+                        <img src="img/lun-small2.jpg" alt="">
+                        <img src="img/lun-small3.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ban-cter">
+                    <div class="mav">
+                        <img src="img/lun-small4.png" alt="">
+                        <img src="img/lun-small5.jpg" alt="">
+                        <img src="img/lun-small6.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ban-cter">
+                    <div class="mav">
+                        <img src="img/lun-small1.png" alt="">
+                        <img src="img/lun-small2.jpg" alt="">
+                        <img src="img/lun-small3.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ban-cter">
+                    <div class="mav">
+                        <img src="img/lun-small4.png" alt="">
+                        <img src="img/lun-small5.jpg" alt="">
+                        <img src="img/lun-small6.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ban-cter">
+                    <div class="mav">
+                        <img src="img/lun-small1.png" alt="">
+                        <img src="img/lun-small2.jpg" alt="">
+                        <img src="img/lun-small3.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ban-cter">
+                    <div class="mav">
+                        <img src="img/lun-small4.png" alt="">
+                        <img src="img/lun-small5.jpg" alt="">
+                        <img src="img/lun-small6.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ban-cter">
+                    <div class="mav">
+                        <img src="img/lun-small1.png" alt="">
+                        <img src="img/lun-small2.jpg" alt="">
+                        <img src="img/lun-small3.png" alt="">
+                    </div>
+                </div>
+            </li>-->
+        </ul>
+        <div class="tabDot">
+            <!--<span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>-->
+        </div>
+    </div>
+    <!--hotMain-->
+    <div id="hotMain">
+        <div class="hotMain-l">
+            <ul class="hotMain-l-t">
+                <li>疯狂抢购</li>
+                <li>整箱特惠</li>
+                <li>爆款精选</li>
+                <li>口粮聚惠</li>
+                <li>大牌特卖</li>
+            </ul>
+            <div class="hotMain-pic">
+
+            </div>
+        </div>
+        <div class="hotMain-r">
+            <ul class="hotMain-r-t">
+                <li>公告信息</li>
+                <li>促销信息</li>
+            </ul>
+            <div class="hotMain-r-st">
+                <ul>
+                    <li><a href="">1月28日扳倒井特卖获奖名单</a></li>
+                    <li><a href="">2018年酒仙网春节不打烊配送说明</a></li>
+                    <li><a href="">年货期间发货时效公告</a></li>
+                    <li><a href="">1月10日金六福特卖获奖名单</a></li>
+                    <li><a href="">12月26日扳倒井特卖获奖名单</a></li>
+                    <li><a href="">12月20日古井贡特卖获奖名单</a></li>
+                </ul>
+            </div>
+            <div class="hotMain-r-st">
+                <ul>
+                    <li><a href="">开春焕新秒杀低至</a></li>
+                    <li><a href="">口粮特惠</a></li>
+                    <li><a href="">CLUB盛典开启</a></li>
+                    <li><a href="">自营加13元得价值1</a></li>
+                    <li><a href="">婚庆喜酒</a></li>
+                    <li><a href="">人头马年货特卖</a></li>
+                </ul>
+            </div>
+            <div class="hotMain-r-b">
+                <div class="hotMain-lb">
+                    <ul>
+                        <li><img src="img/fir-lunbo-01.jpg" alt=""></li>
+                        <li><img src="img/fir-lunbo-02.jpg" alt=""></li>
+                        <li><img src="img/fir-lunbo-03.png" alt=""></li>
+                    </ul>
+                    <div class="hotDot">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="hotMain-lb">
+                    <ul>
+                        <li><img src="img/sec-lunbo-01.jpg" alt=""></li>
+                        <li><img src="img/sec-lunbo-02.png" alt=""></li>
+                        <li><img src="img/sec-lunbo-03.jpg" alt=""></li>
+                    </ul>
+                    <div class="hotDot">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- single-img  -->
+    <div id="single-img">
+        <p><a><img src="img/single-01.png" alt=""></a></p>
+        <p><a><img src="img/single-02.png" alt=""></a></p>
+        <p><a><img src="img/single-03.png" alt=""></a></p>
+    </div>
+    <!--product-main-->
+    <div id="product-main">
+    </div>
+    <!--recommend-->
+    <div id="recommend">
+        <h2>
+            <div class="rmd-h2-l">
+                <span class="timer-icon"></span>
+                <span>优惠推荐</span>
+            </div>
+            <div class="rmd-h2-r">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </h2>
+        <div class="rmd-showImg">
+            <div class="rmd-lunbo">
+
+            </div>
+            <div class="tabBtn">
+                <span class="btn-left"></span>
+                <span class="btn-right"></span>
+            </div>
+        </div>
+    </div>
+    <!-- brand-shop -->
+    <div id="brand-shop">
+        <h2><i></i><span>品牌精品店</span></h2>
+        <ul>
+            <li>
+                <div class="shop-pic"></div>
+                <div class="shop-txt">
+                    <p>
+                        <a href="">兰益松</a>|
+                        <a href="">原味老窖</a>|
+                        <a href="">国五液</a>|
+                        <a href="">海福星</a>|
+                        <a href="">茅台集团国隆</a>|
+                        <a href="">金不换</a>
+                    </p>
+                    <p>
+                        <a href="">元曲</a>|
+                        <a href="">二锅头酒业股份</a>|
+                        <a href="">共创益</a>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="shop-pic"></div>
+                <div class="shop-txt">
+                    <p>
+                        <a href="">统一</a>|
+                        <a href="">法纳提</a>|
+                        <a href="">小企鹅</a>|
+                        <a href="">杜隆</a>|
+                        <a href="">沙莊</a>|
+                        <a href="">香格里拉</a>
+                    </p>
+                    <p>
+                        <a href="">32领域</a>|
+                        <a href="">怡亨</a>|
+                        <a href="">怡园</a>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="shop-pic"></div>
+                <div class="shop-txt">
+                    <div class="shop-txt">
+                        <p>
+                            <a href="">人头马</a>|
+                            <a href="">轩尼诗</a>|
+                            <a href="">芝华士</a>|
+                            <a href="">杰克丹尼</a>|
+                            <a href="">真露</a>
+                        </p>
+                        <p>
+                            <a href="">马爹利</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="shop-pic"></div>
+                <div class="shop-txt">
+                    <p>
+                        <a href="">青梅酒</a>|
+                        <a href="">竹叶青</a>|
+                        <a href="">诗贝</a>|
+                        <a href="">库斯特</a>|
+                        <a href="">劲牌</a>|
+                        <a href="">尊尼获加</a>
+                    </p>
+                    <p>
+                        <a href="">芝华士</a>|
+                        <a href="">路易老爷</a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--bottom-phone-->
+    <div id="bottom-service-wrap">
+        <div id="bottom-service">
+            <div class="bottom-sev-pho">
+                <div class="bsp-left">
+                    <span class="pubIcon"></span>
+                    <span>400-617-9999</span>
+                    <span>客服热线</span>
+                    <span>9:00-23:00</span>
+                    <span>贴心服务</span>
+                </div>
+                <div class="bsp-right">
+                    <span>优惠促销早知道</span>
+                    <p>
+                        <input type="text" class="bSearch" value="请输入你的邮箱地址">
+                        <i class="pubIcon"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="bottom-sev-exp">
+                <ul>
+                    <li>
+                        <h3>
+                            <i class="pubIcon"></i>
+                            <span>新手入门</span>
+                        </h3>
+                        <p>购物保障</p>
+                        <p>服务协议</p>
+                        <p>发票说明</p>
+                    </li>
+                    <li>
+                        <h3>
+                            <i class="pubIcon"></i>
+                            <span>常见问题</span>
+                        </h3>
+                        <p>红包使用</p>
+                        <p>返现使用</p>
+                        <p>兑换码</p>
+                    </li>
+                    <li>
+                        <h3>
+                            <i class="pubIcon"></i>
+                            <span>配送说明</span>
+                        </h3>
+                        <p>配送时间</p>
+                        <p>配送费用</p>
+                        <p>配送范围</p>
+                    </li>
+                    <li>
+                        <h3>
+                            <i class="pubIcon"></i>
+                            <span>支付方式</span>
+                        </h3>
+                        <p>货到付款</p>
+                        <p>在线支付</p>
+                        <p>线下支付</p>
+                    </li>
+                    <li>
+                        <h3>
+                            <i class="pubIcon"></i>
+                            <span>售后服务</span>
+                        </h3>
+                        <p>品质保证</p>
+                        <p>退换货政策</p>
+                        <p>退换货流程</p>
+                    </li>
+                    <li>
+                        <h3>
+                            <i class="pubIcon"></i>
+                            <span>特色服务</span>
+                        </h3>
+                        <p>会员俱乐部</p>
+                        <p>企业客户</p>
+                        <p>酒仙社区</p>
+                    </li>
+                </ul>
+                <div class="bse-r">
+                    <p>
+                        <i class="pubIcon"></i>
+                        <span>酒仙新浪微博</span>
+                    </p>
+                    <p>
+                        <i class="pubIcon"></i>
+                        <span>酒仙微信</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--foot-->
+    <div id="foot">
+        <div class="foot-copys">
+            <p>
+                <a href="" style="padding-left:0;">公司简介</a>|
+                <a href="">管理团队</a>|
+                <a href="">媒体报道</a>|
+                <a href="">联系我们</a>|
+                <a href="">招贤纳士</a>|
+                <a href="">友情链接</a>|
+                <a href="">网站地图</a>|
+                <a href="">品牌大全</a>
+            </p>
+            <p>
+                <a href="">北京酒仙网络科技有限公司</a>
+                <a href=""></a>
+                <a href="">©</a>
+                <a href="">2011</a>
+                <a href="">jiuxian.com</a>
+                <a href="">All</a>
+                <a href="">Rights Reserved</a>
+                <a href="">京ICP备17043395号</a>
+                <a href="">京公网安备1101050188221</a>
+            </p>
+            <p>
+                <a href="">大麦网</a>|
+                <a href="">1折网</a>|
+                <a href="">铁血军事</a>|
+                <a href="">酒仙网白酒</a>|
+                <a href="">酒仙网葡萄酒</a>|
+                <a href="">开放平台招商</a>|
+                <a href="">购酒论坛</a>|
+                <a href="">名鞋库</a>|
+                <a href="">酒仙网团购</a>|
+                <a href="">更多</a>
+            </p>
+            <p>
+                <a href="">统一社会信用代码</a>
+                <a href="">91110302306646672B</a>
+                <a href="">食品流通许可证编号</a>
+                <a href="">JY11131010328793</a>
+            </p>
+            <p>
+                地址：北京市北京经济技术开发区经海五路58号院8幢4层
+            </p>
+            <p>
+                <img src="img/recommend/cnnic.png" alt="">
+                <img src="img/recommend/copyBot03.jpg" alt="">
+                <img src="img/recommend/copyBot04.jpg" alt="">
+                <img src="img/recommend/copyBot05.jpg" alt="">
+                <img src="img/recommend/sf.png" alt="">
+            </p>
+        </div>
+        <div class="footMa">
+            <p>
+                <img src="img/jxPho-code.jpg" alt="">
+                <span>手机酒仙网</span>
+            </p>
+            <p>
+                <img src="img/recommend/jkd-code.jpg" alt="">
+                <span>酒快到</span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

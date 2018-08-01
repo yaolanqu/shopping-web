@@ -1,0 +1,12 @@
+{ 
+    "_id" : ObjectId("5ad1b5c9930c88086e08dce8"), 
+    "username" : "admin", 
+    "password" : "admin", 
+    "rule" : "0"
+}
+{ 
+    "_id" : ObjectId("5ad1c93c930c88086e0926a3"), 
+    "username" : "代号华安", 
+    "password" : "daihao9527", 
+    "rule" : "1"
+}

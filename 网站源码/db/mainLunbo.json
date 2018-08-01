@@ -1,0 +1,54 @@
+{ 
+    "_id" : ObjectId("5afcc4b20e902f1be86cb603"), 
+    "id" : "ml_01", 
+    "image" : "/clothImg/266a055fa2dbc570f093394ec2bee242.jpeg", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcc4c20e902f1be86cb605"), 
+    "id" : "ml_02", 
+    "image" : "/clothImg/e7a20ac368131629e6ca74816e8ed00d.jpeg", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcc4d20e902f1be86cb607"), 
+    "id" : "ml_03", 
+    "image" : "/clothImg/e02e90156272651b5dcb458223702bb9.jpeg", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcc4e00e902f1be86cb609"), 
+    "id" : "ml_04", 
+    "image" : "/clothImg/4f3c8a7422fe43a951b5ca2f6253e0e4.jpeg", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcc4f00e902f1be86cb60b"), 
+    "id" : "ml_05", 
+    "image" : "/clothImg/cec5f31b90a1d56cd80507317421f72a.jpeg", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcc4fd0e902f1be86cb60d"), 
+    "id" : "ml_06", 
+    "image" : "/clothImg/fd60efb4c5dd858f6603b4e6bbaa639e.jpeg", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcc50d0e902f1be86cb60f"), 
+    "id" : "ml_07", 
+    "image" : "/clothImg/252d291c4afd499eef0e39840a4a1010.jpeg", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcc51d0e902f1be86cb611"), 
+    "id" : "ml_08", 
+    "image" : "/clothImg/bb0af344f9fbc37f916fa3b64da21157.jpeg", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcc5420e902f1be86cb615"), 
+    "id" : "ml_09", 
+    "image" : "/clothImg/f1418d5ec003d0ed5a9666b597b5447d.jpeg", 
+    "flag" : "1"
+}

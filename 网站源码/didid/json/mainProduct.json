@@ -1,0 +1,1189 @@
+{
+  "data": [
+    {
+      "titC": "1F",
+      "titN": "白酒馆",
+      "titP": [
+        "贵州",
+        "四川",
+        "山西",
+        "北京",
+        "江苏",
+        "山东",
+        "安徽",
+        "白酒馆"
+      ],
+      "lbo": [
+        "img/1F/1F-lbo-01.jpg",
+        "img/1F/1F-lbo-02.jpg",
+        "img/1F/1F-lbo-03.jpg",
+        "img/1F/1F-lbo-04.jpg",
+        "img/1F/1F-lbo-05.jpg"
+      ],
+      "mainPic": [
+        {
+          "id": "mpro_01",
+          "image": "img/1F/1F-main-01.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_02",
+          "image": "img/1F/1F-main-02.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_03",
+          "image": "img/1F/1F-main-03.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_04",
+          "image": "img/1F/1F-main-04.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_05",
+          "image": "img/1F/1F-main-05.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_06",
+          "image": "img/1F/1F-main-06.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_07",
+          "image": "img/1F/1F-main-07.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_08",
+          "image": "img/1F/1F-main-08.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_09",
+          "image": "img/1F/1F-main-09.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_10",
+          "image": "img/1F/1F-main-10.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        }
+      ],
+      "bbot": [
+        {
+          "tit": "本周热销排行榜",
+          "type": [
+            "酱香型",
+            "浓香型",
+            "清香型",
+            "其他香型"
+          ]
+        }
+      ],
+      "bbo": [
+        {
+          "id": "mpro_11",
+          "image": "img/1F/1F-bbo-01.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_12",
+          "image": "img/1F/1F-bbo-02.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_13",
+          "image": "img/1F/1F-bbo-03.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_14",
+          "image": "img/1F/1F-bbo-04.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_15",
+          "image": "img/1F/1F-bbo-05.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_16",
+          "image": "img/1F/1F-bbo-06.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_17",
+          "image": "img/1F/1F-bbo-07.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_18",
+          "image": "img/1F/1F-bbo-08.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_19",
+          "image": "img/1F/1F-bbo-09.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_20",
+          "image": "img/1F/1F-bbo-10.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_21",
+          "image": "img/1F/1F-bbo-11.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_22",
+          "image": "img/1F/1F-bbo-12.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_23",
+          "image": "img/1F/1F-bbo-13.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_24",
+          "image": "img/1F/1F-bbo-14.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_25",
+          "image": "img/1F/1F-bbo-15.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_26",
+          "image": "img/1F/1F-bbo-16.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_27",
+          "image": "img/1F/1F-bbo-17.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_28",
+          "image": "img/1F/1F-bbo-18.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_29",
+          "image": "img/1F/1F-bbo-19.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_30",
+          "image": "img/1F/1F-bbo-20.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        }
+      ],
+      "hot": [
+        {
+          "title": "热门推荐",
+          "text": [
+            "整箱购",
+            "婚庆用酒",
+            "大坛专场"
+          ]
+        },
+        {
+          "title": "美酒品牌",
+          "text": [
+            "茅台",
+            "五粮液",
+            "剑桥春",
+            "汾酒",
+            "郎酒",
+            "泸州老窖"
+          ]
+        }
+      ]
+    },
+    {
+      "titC": "2F",
+      "titN": "葡萄酒馆",
+      "titP": [
+        "贵州",
+        "四川",
+        "山西",
+        "北京",
+        "江苏",
+        "山东",
+        "安徽",
+        "白酒馆"
+      ],
+      "lbo": [
+        "img/1F/1F-lbo-01.jpg",
+        "img/1F/1F-lbo-02.jpg",
+        "img/1F/1F-lbo-03.jpg",
+        "img/1F/1F-lbo-04.jpg",
+        "img/1F/1F-lbo-05.jpg"
+      ],
+      "mainPic": [
+        {
+          "id": "mpro_31",
+          "image": "img/1F/1F-main-01.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_32",
+          "image": "img/1F/1F-main-02.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_33",
+          "image": "img/1F/1F-main-03.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_34",
+          "image": "img/1F/1F-main-04.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_35",
+          "image": "img/1F/1F-main-05.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_36",
+          "image": "img/1F/1F-main-06.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_37",
+          "image": "img/1F/1F-main-07.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_38",
+          "image": "img/1F/1F-main-08.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_39",
+          "image": "img/1F/1F-main-09.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_40",
+          "image": "img/1F/1F-main-10.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        }
+      ],
+      "bbot": [
+        {
+          "tit": "本周热销排行榜",
+          "type": [
+            "酱香型",
+            "浓香型",
+            "清香型",
+            "其他香型"
+          ]
+        }
+      ],
+      "bbo": [
+        {
+          "id": "mpro_41",
+          "image": "img/1F/1F-bbo-01.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_42",
+          "image": "img/1F/1F-bbo-02.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_43",
+          "image": "img/1F/1F-bbo-03.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_44",
+          "image": "img/1F/1F-bbo-04.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_45",
+          "image": "img/1F/1F-bbo-05.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_46",
+          "image": "img/1F/1F-bbo-06.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_47",
+          "image": "img/1F/1F-bbo-07.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_48",
+          "image": "img/1F/1F-bbo-08.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_49",
+          "image": "img/1F/1F-bbo-09.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_50",
+          "image": "img/1F/1F-bbo-10.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_51",
+          "image": "img/1F/1F-bbo-11.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_52",
+          "image": "img/1F/1F-bbo-12.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_53",
+          "image": "img/1F/1F-bbo-13.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_54",
+          "image": "img/1F/1F-bbo-14.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_55",
+          "image": "img/1F/1F-bbo-15.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_56",
+          "image": "img/1F/1F-bbo-16.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_57",
+          "image": "img/1F/1F-bbo-17.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_58",
+          "image": "img/1F/1F-bbo-18.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_59",
+          "image": "img/1F/1F-bbo-19.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_60",
+          "image": "img/1F/1F-bbo-20.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        }
+      ],
+      "hot": [
+        {
+          "title": "热门推荐",
+          "text": [
+            "整箱购",
+            "婚庆用酒",
+            "大坛专场"
+          ]
+        },
+        {
+          "title": "美酒品牌",
+          "text": [
+            "茅台",
+            "五粮液",
+            "剑桥春",
+            "汾酒",
+            "郎酒",
+            "泸州老窖"
+          ]
+        }
+      ]
+    },
+    {
+      "titC": "3F",
+      "titN": "洋酒馆",
+      "titP": [
+        "贵州",
+        "四川",
+        "山西",
+        "北京",
+        "江苏",
+        "山东",
+        "安徽",
+        "白酒馆"
+      ],
+      "lbo": [
+        "img/1F/1F-lbo-01.jpg",
+        "img/1F/1F-lbo-02.jpg",
+        "img/1F/1F-lbo-03.jpg",
+        "img/1F/1F-lbo-04.jpg",
+        "img/1F/1F-lbo-05.jpg"
+      ],
+      "mainPic": [
+        {
+          "id": "mpro_60",
+          "image": "img/1F/1F-main-01.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_61",
+          "image": "img/1F/1F-main-02.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_62",
+          "image": "img/1F/1F-main-03.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_63",
+          "image": "img/1F/1F-main-04.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_64",
+          "image": "img/1F/1F-main-05.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_65",
+          "image": "img/1F/1F-main-06.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_66",
+          "image": "img/1F/1F-main-07.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_67",
+          "image": "img/1F/1F-main-08.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_68",
+          "image": "img/1F/1F-main-09.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_69",
+          "image": "img/1F/1F-main-10.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        }
+      ],
+      "bbot": [
+        {
+          "tit": "本周热销排行榜",
+          "type": [
+            "酱香型",
+            "浓香型",
+            "清香型",
+            "其他香型"
+          ]
+        }
+      ],
+      "bbo": [
+        {
+          "id": "mpro_70",
+          "image": "img/1F/1F-bbo-01.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_71",
+          "image": "img/1F/1F-bbo-02.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_72",
+          "image": "img/1F/1F-bbo-03.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_73",
+          "image": "img/1F/1F-bbo-04.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_74",
+          "image": "img/1F/1F-bbo-05.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_75",
+          "image": "img/1F/1F-bbo-06.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_76",
+          "image": "img/1F/1F-bbo-07.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_77",
+          "image": "img/1F/1F-bbo-08.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_78",
+          "image": "img/1F/1F-bbo-09.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_79",
+          "image": "img/1F/1F-bbo-10.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_80",
+          "image": "img/1F/1F-bbo-11.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_81",
+          "image": "img/1F/1F-bbo-12.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_82",
+          "image": "img/1F/1F-bbo-13.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_83",
+          "image": "img/1F/1F-bbo-14.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_84",
+          "image": "img/1F/1F-bbo-15.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_85",
+          "image": "img/1F/1F-bbo-16.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_86",
+          "image": "img/1F/1F-bbo-17.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_87",
+          "image": "img/1F/1F-bbo-18.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_88",
+          "image": "img/1F/1F-bbo-19.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_89",
+          "image": "img/1F/1F-bbo-20.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        }
+      ],
+      "hot": [
+        {
+          "title": "热门推荐",
+          "text": [
+            "整箱购",
+            "婚庆用酒",
+            "大坛专场"
+          ]
+        },
+        {
+          "title": "美酒品牌",
+          "text": [
+            "茅台",
+            "五粮液",
+            "剑桥春",
+            "汾酒",
+            "郎酒",
+            "泸州老窖"
+          ]
+        }
+      ]
+    },
+    {
+      "titC": "4F",
+      "titN": "养生酒&黄酒&啤酒",
+      "titP": [
+        "贵州",
+        "四川",
+        "山西",
+        "北京",
+        "江苏",
+        "山东",
+        "安徽",
+        "白酒馆"
+      ],
+      "lbo": [
+        "img/1F/1F-lbo-01.jpg",
+        "img/1F/1F-lbo-02.jpg",
+        "img/1F/1F-lbo-03.jpg",
+        "img/1F/1F-lbo-04.jpg",
+        "img/1F/1F-lbo-05.jpg"
+      ],
+      "mainPic": [
+        {
+          "id": "mpro_90",
+          "image": "img/1F/1F-main-01.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_91",
+          "image": "img/1F/1F-main-02.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_92",
+          "image": "img/1F/1F-main-03.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_93",
+          "image": "img/1F/1F-main-04.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_94",
+          "image": "img/1F/1F-main-05.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_95",
+          "image": "img/1F/1F-main-06.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_96",
+          "image": "img/1F/1F-main-07.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_97",
+          "image": "img/1F/1F-main-08.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_98",
+          "image": "img/1F/1F-main-09.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_99",
+          "image": "img/1F/1F-main-10.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        }
+      ],
+      "bbot": [
+        {
+          "tit": "本周热销排行榜",
+          "type": [
+            "酱香型",
+            "浓香型",
+            "清香型",
+            "其他香型"
+          ]
+        }
+      ],
+      "bbo": [
+        {
+          "id": "mpro_100",
+          "image": "img/1F/1F-bbo-01.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_101",
+          "image": "img/1F/1F-bbo-02.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_102",
+          "image": "img/1F/1F-bbo-03.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_103",
+          "image": "img/1F/1F-bbo-04.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_104",
+          "image": "img/1F/1F-bbo-05.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_105",
+          "image": "img/1F/1F-bbo-06.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_106",
+          "image": "img/1F/1F-bbo-07.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_107",
+          "image": "img/1F/1F-bbo-08.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_108",
+          "image": "img/1F/1F-bbo-09.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_109",
+          "image": "img/1F/1F-bbo-10.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_110",
+          "image": "img/1F/1F-bbo-11.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_111",
+          "image": "img/1F/1F-bbo-12.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_112",
+          "image": "img/1F/1F-bbo-13.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_113",
+          "image": "img/1F/1F-bbo-14.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_114",
+          "image": "img/1F/1F-bbo-15.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_115",
+          "image": "img/1F/1F-bbo-16.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_116",
+          "image": "img/1F/1F-bbo-17.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_117",
+          "image": "img/1F/1F-bbo-18.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_118",
+          "image": "img/1F/1F-bbo-19.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_119",
+          "image": "img/1F/1F-bbo-20.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        }
+      ],
+      "hot": [
+        {
+          "title": "热门推荐",
+          "text": [
+            "整箱购",
+            "婚庆用酒",
+            "大坛专场"
+          ]
+        },
+        {
+          "title": "美酒品牌",
+          "text": [
+            "茅台",
+            "五粮液",
+            "剑桥春",
+            "汾酒",
+            "郎酒",
+            "泸州老窖"
+          ]
+        }
+      ]
+    },
+    {
+      "titC": "5F",
+      "titN": "食品",
+      "titP": [
+        "贵州",
+        "四川",
+        "山西",
+        "北京",
+        "江苏",
+        "山东",
+        "安徽",
+        "白酒馆"
+      ],
+      "lbo": [
+        "img/1F/1F-lbo-01.jpg",
+        "img/1F/1F-lbo-02.jpg",
+        "img/1F/1F-lbo-03.jpg",
+        "img/1F/1F-lbo-04.jpg",
+        "img/1F/1F-lbo-05.jpg"
+      ],
+      "mainPic": [
+        {
+          "id": "mpro_120",
+          "image": "img/1F/1F-main-01.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_121",
+          "image": "img/1F/1F-main-02.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_122",
+          "image": "img/1F/1F-main-03.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_123",
+          "image": "img/1F/1F-main-04.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_124",
+          "image": "img/1F/1F-main-05.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_125",
+          "image": "img/1F/1F-main-06.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_126",
+          "image": "img/1F/1F-main-07.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_127",
+          "image": "img/1F/1F-main-08.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_128",
+          "image": "img/1F/1F-main-09.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        },
+        {
+          "id": "mpro_129",
+          "image": "img/1F/1F-main-10.jpg",
+          "name": "50°西凤·御宴酒（精装版）500ml",
+          "price": "￥39.00"
+        }
+      ],
+      "bbot": [
+        {
+          "tit": "本周热销排行榜",
+          "type": [
+            "酱香型",
+            "浓香型",
+            "清香型",
+            "其他香型"
+          ]
+        }
+      ],
+      "bbo": [
+        {
+          "id": "mpro_130",
+          "image": "img/1F/1F-bbo-01.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_131",
+          "image": "img/1F/1F-bbo-02.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_132",
+          "image": "img/1F/1F-bbo-03.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_133",
+          "image": "img/1F/1F-bbo-04.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_134",
+          "image": "img/1F/1F-bbo-05.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_135",
+          "image": "img/1F/1F-bbo-06.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_136",
+          "image": "img/1F/1F-bbo-07.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_137",
+          "image": "img/1F/1F-bbo-08.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_138",
+          "image": "img/1F/1F-bbo-09.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_139",
+          "image": "img/1F/1F-bbo-10.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_140",
+          "image": "img/1F/1F-bbo-11.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_141",
+          "image": "img/1F/1F-bbo-12.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_142",
+          "image": "img/1F/1F-bbo-13.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_143",
+          "image": "img/1F/1F-bbo-14.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_144",
+          "image": "img/1F/1F-bbo-15.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_145",
+          "image": "img/1F/1F-bbo-16.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_146",
+          "image": "img/1F/1F-bbo-17.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_147",
+          "image": "img/1F/1F-bbo-18.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_148",
+          "image": "img/1F/1F-bbo-19.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        },
+        {
+          "id": "mpro_149",
+          "image": "img/1F/1F-bbo-20.jpg",
+          "name": "53°汾酒集团青瓷一坛香1500ml",
+          "price": "￥99.00"
+        }
+      ],
+      "hot": [
+        {
+          "title": "热门推荐",
+          "text": [
+            "整箱购",
+            "婚庆用酒",
+            "大坛专场"
+          ]
+        },
+        {
+          "title": "美酒品牌",
+          "text": [
+            "茅台",
+            "五粮液",
+            "剑桥春",
+            "汾酒",
+            "郎酒",
+            "泸州老窖"
+          ]
+        }
+      ]
+    }
+  ]
+}

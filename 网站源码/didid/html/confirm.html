@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Examples</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="../css/confirm.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/dateUtil.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/confirm.js"></script>
+</head>
+<body>
+<div class="main-top-wrap">
+    <div class="main-top">
+        <div class="main-t-l" style="display: none">
+            <a href="login.html">Hi 请登录</a>
+            <a href="register.html">免费注册</a>
+        </div>
+        <div class="main-t-r">
+            <a href="">我的订单</a>|
+            <a href="">我的酒仙网</a>|
+            <a href="">客服热线</a>
+            <strong>400-617-9999</strong>
+        </div>
+    </div>
+</div>
+<div class="logo">
+    <a href="../index.html" class='toHome'><img src="../img/logo.png" alt=""></a>
+    <div class="process">
+        <div class="processImg"></div>
+        <div class="proTex">
+            <span class="on">我的购物车</span>
+            <span class="on2">确认订单信息</span>
+            <span class="on3">成功提交订单</span>
+        </div>
+    </div>
+</div>
+<div class="f-Prompt">
+    <i class="cartIcon"></i>
+    <span>温馨提示：自营商品实付满100元免运费，偏远地区满500免运费</span>
+</div>
+<div class="addressCon">
+    <div class="pubTitle">
+        <h3>填写收货地址</h3>
+    </div>
+    <div class="selfInfo">
+        <div class="addressTxt">
+            <div class="subTxt">
+                <div class="title">
+                    <em>*</em>
+                    <span>所在地区</span>
+                </div>
+                <div class="inputTxt">
+                    <input type="text" placeholder="请选择省市区" class="currentArea"/>
+                </div>
+            </div>
+        </div>
+        <div class="addressTxt">
+            <div class="subTxt">
+                <div class="title">
+                    <em>*</em>
+                    <span>详细地址</span>
+                </div>
+                <div class="inputTxt">
+                    <input type="text" placeholder="请填写详细地址，无需重复填写省市区" class="detailArea"/>
+                </div>
+            </div>
+        </div>
+        <div class="addressTxt">
+            <div class="subTxt">
+                <div class="title">
+                    <em>*</em>
+                    <span>收货人姓名</span>
+                </div>
+                <div class="inputTxt">
+                    <input type="text" placeholder="请填写收货人姓名" class="revName"/>
+                </div>
+            </div>
+        </div>
+        <div class="addressTxt">
+            <div class="subTxt">
+                <div class="title">
+                    <em>*</em>
+                    <span>手机</span>
+                </div>
+                <div class="inputTxt">
+                    <input type="text" placeholder="请填写手机号码" class="phoneNums"/>
+                </div>
+            </div>
+        </div>
+        <div class="addrBtn">
+            <a href="javascript:;" name="saveAddress" class="saveAddress">保存地址</a>
+        </div>
+    </div>
+</div>
+<div class="addressList" style="display: none;">
+    <ul class="clearfix">
+        <li class="default">
+            <i class="orderIcon"></i>
+            <div class="addressListTop">
+                <span class="revUser"></span><span>收</span>
+            </div>
+            <div class="addressListBottom">
+                <div class="address"></div>
+                <div class="phoneNum">
+
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="pubWrap">
+    <div class="pubTitle">
+        <h3>选择支付方式</h3>
+    </div>
+    <div class="payMent">
+        <div class="payMethod">
+            在线支付
+        </div>
+        <div class="payMethod">
+            货到付款
+        </div>
+    </div>
+    <div class="pubTitle">
+        <h3>确认订单信息</h3>
+        <div class="confirmRemind"><i class="orderIcon"></i><span>若商品来自不同商家，各商家将分别为您配送</span></div>
+    </div>
+</div>
+<div class="orderTab">
+    <div class="tHead">
+        <div class="oTd item-1">商品信息</div>
+        <div class="oTd item-2">单价</div>
+        <div class="oTd item-3">数量</div>
+        <div class="oTd item-4">状态</div>
+        <div class="oTd item-5">小计</div>
+    </div>
+    <div class="shopTitle">
+        <a><i class="orderIcon jxzy"></i><span>酒仙自营</span></a>
+    </div>
+    <div class="orderCon"></div>
+</div>
+<div class="settlementBox settlementBg">
+    <div class="settlementAmount">
+        <p><span>应付总金额：</span><em class="totleNum"></em></p>
+        <p id="settlAddress"><span>寄送至：</span><em id="settlAddressInfo">无</em></p>
+        <p id="settlConsignee"><span>收货人：</span><em id="settlConsigneeInfo">无</em><em class="phoneNunber"
+                                                                                       id="settlMobleInfo">无</em>
+        </p>
+    </div>
+    <div class="submitBtnBox"><a id="backCart" href="../index.html" style="color: rgb(0, 102, 204);">返回购物车</a><a
+            id="submitOrder" href="javascript:;" class="submitBtn">提交订单</a></div>
+</div>
+<!--bottom-phone-->
+<div id="bottom-service-wrap">
+    <div id="bottom-service">
+        <div class="bottom-sev-pho">
+            <div class="bsp-left">
+                <span class="pubIcon"></span>
+                <span>400-617-9999</span>
+                <span>客服热线</span>
+                <span>9:00-23:00</span>
+                <span>贴心服务</span>
+            </div>
+            <div class="bsp-right">
+                <span>优惠促销早知道</span>
+                <p>
+                    <input type="text" class="bSearch" value="请输入你的邮箱地址">
+                    <i class="pubIcon"></i>
+                </p>
+            </div>
+        </div>
+        <div class="bottom-sev-exp">
+            <ul>
+                <li>
+                    <h3>
+                        <i class="pubIcon"></i>
+                        <span>新手入门</span>
+                    </h3>
+                    <p>购物保障</p>
+                    <p>服务协议</p>
+                    <p>发票说明</p>
+                </li>
+                <li>
+                    <h3>
+                        <i class="pubIcon"></i>
+                        <span>常见问题</span>
+                    </h3>
+                    <p>红包使用</p>
+                    <p>返现使用</p>
+                    <p>兑换码</p>
+                </li>
+                <li>
+                    <h3>
+                        <i class="pubIcon"></i>
+                        <span>配送说明</span>
+                    </h3>
+                    <p>配送时间</p>
+                    <p>配送费用</p>
+                    <p>配送范围</p>
+                </li>
+                <li>
+                    <h3>
+                        <i class="pubIcon"></i>
+                        <span>支付方式</span>
+                    </h3>
+                    <p>货到付款</p>
+                    <p>在线支付</p>
+                    <p>线下支付</p>
+                </li>
+                <li>
+                    <h3>
+                        <i class="pubIcon"></i>
+                        <span>售后服务</span>
+                    </h3>
+                    <p>品质保证</p>
+                    <p>退换货政策</p>
+                    <p>退换货流程</p>
+                </li>
+                <li>
+                    <h3>
+                        <i class="pubIcon"></i>
+                        <span>特色服务</span>
+                    </h3>
+                    <p>会员俱乐部</p>
+                    <p>企业客户</p>
+                    <p>酒仙社区</p>
+                </li>
+            </ul>
+            <div class="bse-r">
+                <p>
+                    <i class="pubIcon"></i>
+                    <span>酒仙新浪微博</span>
+                </p>
+                <p>
+                    <i class="pubIcon"></i>
+                    <span>酒仙微信</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--foot-->
+<div id="footer">
+    <div class="foot-copys">
+        <p>
+            <a href="" style="padding-left:0;">公司简介</a>|
+            <a href="">管理团队</a>|
+            <a href="">媒体报道</a>|
+            <a href="">联系我们</a>|
+            <a href="">招贤纳士</a>|
+            <a href="">友情链接</a>|
+            <a href="">网站地图</a>|
+            <a href="">品牌大全</a>
+        </p>
+        <p>
+            <a href="">北京酒仙网络科技有限公司</a>
+            <a href=""></a>
+            <a href="">©</a>
+            <a href="">2011</a>
+            <a href="">jiuxian.com</a>
+            <a href="">All</a>
+            <a href="">Rights Reserved</a>
+            <a href="">京ICP备17043395号</a>
+            <a href="">京公网安备1101050188221</a>
+        </p>
+        <p>
+            <a href="">大麦网</a>|
+            <a href="">1折网</a>|
+            <a href="">铁血军事</a>|
+            <a href="">酒仙网白酒</a>|
+            <a href="">酒仙网葡萄酒</a>|
+            <a href="">开放平台招商</a>|
+            <a href="">购酒论坛</a>|
+            <a href="">名鞋库</a>|
+            <a href="">酒仙网团购</a>|
+            <a href="">更多</a>
+        </p>
+        <p>
+            <a href="">统一社会信用代码</a>
+            <a href="">91110302306646672B</a>
+            <a href="">食品流通许可证编号</a>
+            <a href="">JY11131010328793</a>
+        </p>
+        <p>
+            地址：北京市北京经济技术开发区经海五路58号院8幢4层
+        </p>
+        <p>
+            <img src="../img/recommend/cnnic.png" alt="">
+            <img src="../img/recommend/copyBot03.jpg" alt="">
+            <img src="../img/recommend/copyBot04.jpg" alt="">
+            <img src="../img/recommend/copyBot05.jpg" alt="">
+            <img src="../img/recommend/sf.png" alt="">
+        </p>
+    </div>
+    <div class="footMa">
+        <p>
+            <img src="../img/jxPho-code.jpg" alt="">
+            <span>手机酒仙网</span>
+        </p>
+        <p>
+            <img src="../img/recommend/jkd-code.jpg" alt="">
+            <span>酒快到</span>
+        </p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+{ 
+    "_id" : ObjectId("5afcfc85cc8e4b134ca99b02"), 
+    "id" : "rem_01", 
+    "image" : "/salePro/8c370241bdeaff0174d702368c79a5ca.jpeg", 
+    "name" : "42°汾酒集团优级杏花村500ml", 
+    "price" : "￥39.00", 
+    "times" : "33483", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfcaecc8e4b134ca99b04"), 
+    "id" : "rem_02", 
+    "image" : "/salePro/a6d24d4a3297d2b56ad4536021c885d1.jpeg", 
+    "name" : "【老酒特卖】45°西凤金窖500ml(2012-2013年）", 
+    "price" : "￥49.00", 
+    "times" : "43156", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfccdcc8e4b134ca99b06"), 
+    "id" : "rem_03", 
+    "image" : "/salePro/c186f4d0ca0ef7a8f47681c41ebf890d.jpeg", 
+    "name" : "52°皇沟御酒盛世500ml(6瓶装)", 
+    "price" : "￥99.00", 
+    "times" : "50794", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfcefcc8e4b134ca99b08"), 
+    "id" : "rem_04", 
+    "image" : "/salePro/05f6c885522cf7b1f30eebe72216ebbf.jpeg", 
+    "name" : "【礼酒特卖】澳大利亚米隆庄园王子系列色拉子红葡萄酒187ml 6支礼盒装", 
+    "price" : "￥69.00", 
+    "times" : "103142", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfd14cc8e4b134ca99b0a"), 
+    "id" : "rem_05", 
+    "image" : "/salePro/bda0a42fa99c085695a1ecd0a0543b70.jpeg", 
+    "name" : "53°蓝瓶杏花村酒（2013年）475ml（2瓶装）", 
+    "price" : "￥129.00", 
+    "times" : "85320", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfd39cc8e4b134ca99b0c"), 
+    "id" : "rem_06", 
+    "image" : "/salePro/a90ac951b0b4de9ff87421696cceac83.jpeg", 
+    "name" : "澳洲整箱红酒澳大利亚丁戈树赤霞珠干红葡萄酒750ml（6瓶装）", 
+    "price" : "￥768.00", 
+    "times" : "43156", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfd57cc8e4b134ca99b0e"), 
+    "id" : "rem_07", 
+    "image" : "/salePro/d0a1d28153a31dd03685184526df6618.jpeg", 
+    "name" : "【清仓】45°古井大曲250ml（6瓶装）", 
+    "price" : "￥39.00", 
+    "times" : "103142", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfd92cc8e4b134ca99b10"), 
+    "id" : "rem_08", 
+    "image" : "/salePro/254c6ae1c55360c4d4ff0abf5527b90f.jpeg", 
+    "name" : "52°水井坊小水井500ml", 
+    "price" : "￥159.00", 
+    "times" : "33483", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfdbecc8e4b134ca99b12"), 
+    "id" : "rem_09", 
+    "image" : "/salePro/8cf4d04de29afead502b8c9cfce48196.jpeg", 
+    "name" : "52°酒鬼酒书说500ml+酒器(酒杯*2）", 
+    "price" : "￥299.00", 
+    "times" : "85320", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfdf4cc8e4b134ca99b15"), 
+    "id" : "rem_10", 
+    "image" : "/salePro/0173ef63494adbf573fb6a9ad99e8c29.jpeg", 
+    "name" : "53°黄金酱（红10酱）500ml(6瓶装)+53°黄金酱（红10酱）250ml*4", 
+    "price" : "￥499.00", 
+    "times" : "103142", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfe19cc8e4b134ca99b17"), 
+    "id" : "rem_11", 
+    "image" : "/salePro/f9cfa4d9d716c6443181dfd089760a90.jpeg", 
+    "name" : "法国勆迪精选干红葡萄酒750ml(6瓶装)", 
+    "price" : "￥269.00", 
+    "times" : "3274", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfe47cc8e4b134ca99b1a"), 
+    "id" : "rem_12", 
+    "image" : "/salePro/96f815766b901ef40b7b70c0823f743f.jpeg", 
+    "name" : "长城（GreatWall ) 红酒解百纳（711）干红葡萄酒 750ml*6", 
+    "price" : "￥169.00", 
+    "times" : "103142", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfe67cc8e4b134ca99b1c"), 
+    "id" : "rem_13", 
+    "image" : "/salePro/7719a208ead7c7146d10790517000d61.jpeg", 
+    "name" : "52°五粮液股份锦上添花醇品级500ml（6瓶装）", 
+    "price" : "￥219.00", 
+    "times" : "103142", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfe84cc8e4b134ca99b1e"), 
+    "id" : "rem_14", 
+    "image" : "/salePro/5e4f583c3cc709f741f2092ad046af22.jpeg", 
+    "name" : "53°玻瓶汾酒整箱装475ml*12", 
+    "price" : "￥480.00", 
+    "times" : "50794", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfea8cc8e4b134ca99b20"), 
+    "id" : "rem_15", 
+    "image" : "/salePro/4074b8f7c33c1f2d70eee75777977a12.jpeg", 
+    "name" : "38°扳倒井青花瓷700ml（6瓶装）", 
+    "price" : "￥109.00", 
+    "times" : "85320", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfecbcc8e4b134ca99b22"), 
+    "id" : "rem_16", 
+    "image" : "/salePro/da3ba0380f1c496f64d6158714d091ea.jpeg", 
+    "name" : "51°茅台汉酱酒500ml", 
+    "price" : "￥309.00", 
+    "times" : "103142", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcfefacc8e4b134ca99b24"), 
+    "id" : "rem_17", 
+    "image" : "/salePro/a03206b548825cde5086c0b1a6e2f7fa.jpeg", 
+    "name" : "51°茅台汉酱酒500ml", 
+    "price" : "￥309.00", 
+    "times" : "103142", 
+    "flag" : "1"
+}
+{ 
+    "_id" : ObjectId("5afcff21cc8e4b134ca99b26"), 
+    "id" : "rem_18", 
+    "image" : "/salePro/d0c2801ac37c2cb738c1e47a488b3867.jpeg", 
+    "name" : "法国整箱红酒拉奥尔勃艮第干红葡萄酒750ml（6瓶装）", 
+    "price" : "￥279.00", 
+    "times" : "3274", 
+    "flag" : "1"
+}
